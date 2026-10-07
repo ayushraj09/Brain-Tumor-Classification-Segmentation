@@ -56,7 +56,7 @@ Not versioned (`.gitignore`): `Brain-Tumor-Dataset/`, `checkpoints/`, virtual en
 
 ### Model weights
 
-Trained weights are not stored in the repository. Download link: **_to be added (Google Drive)_**. Unpack into
+Trained weights are not stored in the repository. Download link: **[Google Drive](https://drive.google.com/drive/folders/1TQgt1Jn6rU9UekwDBxHUO5fHoOteq78v?usp=sharing)**. Unpack into
 `checkpoints/`:
 
 ```
