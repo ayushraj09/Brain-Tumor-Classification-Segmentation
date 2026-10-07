@@ -1,0 +1,58 @@
+{
+  "members": [
+    "refit_effb3_full_s42:EfficientNet_B3",
+    "refit_effb3_full_s1:EfficientNet_B3",
+    "refit_effb3_full_s2:EfficientNet_B3"
+  ],
+  "test_folds": [
+    0.9870848708487084,
+    0.9705449189985272,
+    0.9702797202797203,
+    0.9697452229299363,
+    0.9595645412130638
+  ],
+  "test_pooled": {
+    "accuracy": 0.9709530026109661,
+    "precision": 0.9708746818822533,
+    "recall": 0.9709530026109661,
+    "f1": 0.9708876273917851,
+    "macro_f1": 0.9667972323339175,
+    "per_class": {
+      "glioma": {
+        "precision": 0.9810791871058164,
+        "recall": 0.9817671809256662,
+        "f1-score": 0.9814230634419909,
+        "support": 1426.0
+      },
+      "meningioma": {
+        "precision": 0.9511494252873564,
+        "recall": 0.9350282485875706,
+        "f1-score": 0.9430199430199431,
+        "support": 708.0
+      },
+      "pituitary_tumor": {
+        "precision": 0.9702444208289054,
+        "recall": 0.9817204301075269,
+        "f1-score": 0.9759486905398183,
+        "support": 930.0
+      }
+    },
+    "confusion": [
+      [
+        1400,
+        25,
+        1
+      ],
+      [
+        19,
+        662,
+        27
+      ],
+      [
+        8,
+        9,
+        913
+      ]
+    ]
+  }
+}

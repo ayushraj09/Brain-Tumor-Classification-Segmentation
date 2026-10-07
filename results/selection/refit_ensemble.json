@@ -1,0 +1,64 @@
+{
+  "members": [
+    "refit_effb3_full_s42:EfficientNet_B3",
+    "refit_effb3_full_s1:EfficientNet_B3",
+    "refit_effb3_full_s2:EfficientNet_B3",
+    "refit_incv3_full_s42:InceptionV3",
+    "refit_incv3_full_s1:InceptionV3",
+    "refit_incv3_full_s2:InceptionV3",
+    "refit_effb3_roi2_s42:EfficientNet_B3",
+    "refit_effb3_roi2_s1:EfficientNet_B3",
+    "refit_effb3_roi2_s2:EfficientNet_B3"
+  ],
+  "test_folds": [
+    0.992619926199262,
+    0.9720176730486009,
+    0.9737762237762237,
+    0.9808917197452229,
+    0.9626749611197511
+  ],
+  "test_pooled": {
+    "accuracy": 0.9758485639686684,
+    "precision": 0.9757786352413392,
+    "recall": 0.9758485639686684,
+    "f1": 0.9757658613889376,
+    "macro_f1": 0.9724385358063397,
+    "per_class": {
+      "glioma": {
+        "precision": 0.9825174825174825,
+        "recall": 0.985273492286115,
+        "f1-score": 0.9838935574229691,
+        "support": 1426.0
+      },
+      "meningioma": {
+        "precision": 0.9638205499276411,
+        "recall": 0.940677966101695,
+        "f1-score": 0.952108649035025,
+        "support": 708.0
+      },
+      "pituitary_tumor": {
+        "precision": 0.9745493107104984,
+        "recall": 0.9881720430107527,
+        "f1-score": 0.981313400961025,
+        "support": 930.0
+      }
+    },
+    "confusion": [
+      [
+        1405,
+        21,
+        0
+      ],
+      [
+        18,
+        666,
+        24
+      ],
+      [
+        7,
+        4,
+        919
+      ]
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+model,pointing,energy_in_tumor,energy_in_context,cam_iou,chance_energy,cam_empty,energy_in_brain_all,energy_in_brain_no_tumor,pointing_correct,pointing_wrong,n_wrong_tumor
+InceptionV3,0.8139686684073107,0.3336858580015243,0.6035794779060338,0.21674010055354653,0.01690208881665362,0.13740208877284596,0.8357266356327204,,0.8157538877620013,0.7641509433962265,106

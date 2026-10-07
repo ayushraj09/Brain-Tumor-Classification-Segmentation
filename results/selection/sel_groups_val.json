@@ -1,0 +1,264 @@
+{
+  "ranking": [
+    {
+      "groups": [
+        "effb3_full",
+        "incv3_full",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9778067885117493
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "effv2s384_ema",
+        "incv3_full",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9761749347258486
+    },
+    {
+      "groups": [
+        "convnext384_ema",
+        "effv2s384_ema",
+        "incv3_full"
+      ],
+      "val_pooled": 0.9755221932114883
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "convnext384_ema",
+        "effv2s384_ema",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9755221932114883
+    },
+    {
+      "groups": [
+        "convnext384_ema",
+        "incv3_full"
+      ],
+      "val_pooled": 0.9751958224543081
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "convnext384_ema",
+        "incv3_full"
+      ],
+      "val_pooled": 0.9751958224543081
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "convnext384_ema",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9751958224543081
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "effv2s384_ema",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9751958224543081
+    },
+    {
+      "groups": [
+        "convnext384_ema",
+        "effv2s384_ema",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9751958224543081
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "convnext384_ema",
+        "incv3_full",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9751958224543081
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "convnext384_ema"
+      ],
+      "val_pooled": 0.9748694516971279
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "convnext384_ema",
+        "effv2s384_ema"
+      ],
+      "val_pooled": 0.9748694516971279
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "convnext384_ema",
+        "effv2s384_ema",
+        "incv3_full",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9748694516971279
+    },
+    {
+      "groups": [
+        "effv2s384_ema",
+        "incv3_full"
+      ],
+      "val_pooled": 0.9745430809399478
+    },
+    {
+      "groups": [
+        "effv2s384_ema",
+        "incv3_full",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9745430809399478
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "effv2s384_ema"
+      ],
+      "val_pooled": 0.9742167101827677
+    },
+    {
+      "groups": [
+        "convnext384_ema",
+        "incv3_full",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9742167101827677
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "convnext384_ema",
+        "effv2s384_ema",
+        "incv3_full"
+      ],
+      "val_pooled": 0.9742167101827677
+    },
+    {
+      "groups": [
+        "convnext384_ema",
+        "effv2s384_ema",
+        "incv3_full",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9742167101827677
+    },
+    {
+      "groups": [
+        "convnext384_ema",
+        "effv2s384_ema"
+      ],
+      "val_pooled": 0.9738903394255874
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "effv2s384_ema",
+        "incv3_full"
+      ],
+      "val_pooled": 0.9738903394255874
+    },
+    {
+      "groups": [
+        "convnext384_ema"
+      ],
+      "val_pooled": 0.972911227154047
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "incv3_full"
+      ],
+      "val_pooled": 0.9725848563968669
+    },
+    {
+      "groups": [
+        "effv2s384_ema"
+      ],
+      "val_pooled": 0.9712793733681462
+    },
+    {
+      "groups": [
+        "effb3_full"
+      ],
+      "val_pooled": 0.970626631853786
+    },
+    {
+      "groups": [
+        "effb3_full",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9699738903394256
+    },
+    {
+      "groups": [
+        "incv3_full",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9689947780678851
+    },
+    {
+      "groups": [
+        "incv3_full"
+      ],
+      "val_pooled": 0.9683420365535248
+    },
+    {
+      "groups": [
+        "convnext384_ema",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9676892950391645
+    },
+    {
+      "groups": [
+        "effv2s384_ema",
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9654046997389034
+    },
+    {
+      "groups": [
+        "effb3_roi2"
+      ],
+      "val_pooled": 0.9510443864229765
+    }
+  ],
+  "selected": [
+    "effb3_full",
+    "incv3_full",
+    "effb3_roi2"
+  ],
+  "members": [
+    "p3_full_effb3:EfficientNet_B3",
+    "p3_full_effb3_s1:EfficientNet_B3",
+    "p3_full_effb3_s2:EfficientNet_B3",
+    "p3_full_incv3:InceptionV3",
+    "p3_full_incv3_s1:InceptionV3",
+    "p3_full_incv3_s2:InceptionV3",
+    "p3_roi2_effb3:EfficientNet_B3",
+    "p3_roi2_effb3_s1:EfficientNet_B3",
+    "p3_roi2_effb3_s2:EfficientNet_B3"
+  ],
+  "val_pooled": 0.9778067885117493,
+  "test_folds": [
+    0.985239852398524,
+    0.9646539027982327,
+    0.9667832167832168,
+    0.9840764331210191,
+    0.9580093312597201
+  ],
+  "test_pooled": 0.9712793733681462
+}

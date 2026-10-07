@@ -1,0 +1,2 @@
+model,pointing,energy_in_tumor,energy_in_context,cam_iou,chance_energy,cam_empty,energy_in_brain_all,energy_in_brain_no_tumor,pointing_correct,pointing_wrong,n_wrong_tumor
+EfficientNet_B3,0.8981723237597912,0.44940570058427,0.7480214781428559,0.23061081434231187,0.01689993109950682,0.061031331592689295,0.9134737748030194,,0.9011099899091827,0.8021978021978022,91
