@@ -1,6 +1,6 @@
 # Brain Tumor MRI Classification with Grad-CAM-Guided Training
 
-Leakage-free brain tumor classification (glioma, meningioma, pituitary tumor) on the Figshare CE-T1 MRI dataset,
+Brain tumor classification (glioma, meningioma, pituitary tumor) on the Figshare CE-T1 MRI dataset,
 with Grad-CAM explainability, Grad-CAM-guided training, tumor-region classifiers and Mask R-CNN segmentation.
 
 **Result (official patient-wise 5-fold CV, 3 classes):** **97.64 ± 1.12 %** test accuracy (pooled 97.58 %, macro-F1
@@ -87,9 +87,6 @@ Figshare README), writes the masks as PNG and builds `metadata.csv`.
   Epochs, configurations and the ensemble were chosen on pooled validation accuracy. The final models were then
   **refit** on all four non-test folds (80 % of the data, like the published works) for the fixed schedule and evaluated
   once on the test fold.
-* **Why not a random image split?** The dataset has ~13 near-identical slices per patient, so shuffling slices puts
-  the same patient in training and test. In an earlier image-level 70/15/15 version of this project InceptionV3 reached
-  97.7 %; under patient-level evaluation the same model reaches 92.8 %. No result here uses an image-level split.
 
 ## Method
 

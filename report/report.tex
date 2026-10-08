@@ -18,7 +18,7 @@
 \newcommand{\best}[1]{\textbf{#1}}
 
 \title{\textbf{Brain Tumor MRI Classification with Grad-CAM-Guided Training:\\
-Explainability, Tumor-Region Ensembles and Leakage-free Evaluation}\\[4pt]
+Explainability and Tumor-Region Ensembles}\\[4pt]
 \large Technical Report}
 \author{Ayush Raj}
 \date{October 2026}
@@ -46,15 +46,10 @@ protocol.
 % ──────────────────────────────────────────────────────────────────────────────
 \section{Introduction}
 
-Public brain-tumor MRI datasets make it easy to report accuracies above 95\,\%. Two questions are often left open:
-is the evaluation free of patient leakage, and does the network base its decision on the tumor at all? This report
-answers both for the Figshare dataset~\cite{figshare,cheng2015} and uses the answer to the second question to
-improve the classifiers.
-
-\paragraph{Motivation.} An earlier version of this project split all slices at random (70/15/15). With about 13
-near-identical slices per patient this puts the same patient in training and test. The same InceptionV3 drops from
-97.7\,\% to 92.8\,\% when patients are separated. All results in this report therefore use the official patient-wise
-folds, the protocol of the published works we compare against~\cite{cheng2015,deepak2019,diazpernas2021}.
+Public brain-tumor MRI datasets make it easy to report accuracies above 95\,\%. A question that is often left open is
+whether the network bases its decision on the tumor at all. This report answers it for the Figshare
+dataset~\cite{figshare,cheng2015} and uses the answer to improve the classifiers. All results use the official
+patient-wise folds, the protocol of the published works we compare against~\cite{cheng2015,deepak2019,diazpernas2021}.
 
 \paragraph{Contributions.}
 \begin{enumerate}
